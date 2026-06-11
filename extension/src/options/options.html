@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <title>KSP × AI</title>
+  <link rel="stylesheet" href="../styles/tokens.css" />
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body>
+  <main class="options-wrap">
+    <header class="options-head">
+      <h1 class="options-title" data-i18n="optionsTitle">⚙️ הגדרות KSP × AI</h1>
+      <div class="options-subtitle" data-i18n="optionsSubtitle"></div>
+    </header>
+
+    <!-- API keys card -->
+    <section class="card">
+      <div class="card-title" data-i18n="optionsCardKeys">מפתחות API</div>
+
+      <div class="key-row" data-provider="claude">
+        <div class="key-row-head">
+          <span class="key-name">🟣 <span data-i18n="providerClaude"></span></span>
+          <a class="key-link" href="https://console.anthropic.com/" target="_blank" rel="noopener" data-host="console.anthropic.com"></a>
+        </div>
+        <input class="input key-input" type="password" data-key="claudeKey" placeholder="sk-ant-..." autocomplete="off" />
+      </div>
+
+      <div class="key-row" data-provider="openai">
+        <div class="key-row-head">
+          <span class="key-name">🟢 <span data-i18n="providerOpenAI"></span></span>
+          <a class="key-link" href="https://platform.openai.com/api-keys" target="_blank" rel="noopener" data-host="platform.openai.com"></a>
+        </div>
+        <input class="input key-input" type="password" data-key="openaiKey" placeholder="sk-..." autocomplete="off" />
+      </div>
+
+      <div class="key-row" data-provider="gemini">
+        <div class="key-row-head">
+          <span class="key-name">🔵 <span data-i18n="providerGemini"></span></span>
+          <a class="key-link" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener" data-host="aistudio.google.com"></a>
+        </div>
+        <input class="input key-input" type="password" data-key="geminiKey" placeholder="AIza..." autocomplete="off" />
+      </div>
+    </section>
+
+    <!-- Preferences card -->
+    <section class="card">
+      <div class="card-title" data-i18n="optionsCardPrefs">העדפות</div>
+      <div class="pref-block">
+        <div class="pref-label" data-i18n="optionsDefaultProvider"></div>
+        <select class="select" id="defaultProvider">
+          <option value="claude" data-i18n="providerClaude"></option>
+          <option value="openai" data-i18n="providerOpenAI"></option>
+          <option value="gemini" data-i18n="providerGemini"></option>
+        </select>
+      </div>
+      <div class="pref-block">
+        <div class="pref-label" data-i18n="settingsLanguage"></div>
+        <div class="lang-pills" id="langPills">
+          <button data-lang="he" data-i18n="settingsLangHe"></button>
+          <button data-lang="en" data-i18n="settingsLangEn"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Privacy card — always visible -->
+    <section class="card privacy">
+      <div class="card-title" data-i18n="optionsCardPrivacy">🔒 פרטיות ואבטחה</div>
+      <p class="privacy-body" data-i18n="optionsPrivacyBody"></p>
+    </section>
+
+    <button id="saveBtn" class="btn primary full save-btn" data-i18n="optionsSave">💾 שמור הגדרות</button>
+    <div id="savedToast" class="saved-toast" data-i18n="optionsSaved"></div>
+  </main>
+
+  <script type="module" src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "KSP × AI — Product extractor for LLMs",
+    "description": "Extension name shown in the store and chrome://extensions"
+  },
+  "extDesc": {
+    "message": "Extract KSP product listings, build an LLM-ready prompt, or ask Claude / GPT / Gemini directly.",
+    "description": "Short store description"
+  },
+  "actionTitle": {
+    "message": "Open KSP × AI",
+    "description": "Toolbar button tooltip"
+  },
+
+  "headerTitle": { "message": "✨ KSP × AI" },
+  "close": { "message": "Close" },
+
+  "tabProducts": { "message": "Products" },
+  "tabAsk": { "message": "Ask AI" },
+  "tabSettings": { "message": "Settings" },
+
+  "productsHeaderFound": {
+    "message": "Found $COUNT$ products",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "productsChipPage": { "message": "this page" },
+  "productsLoading": { "message": "⏳ Combing the DOM..." },
+  "productsEmptyTitle": { "message": "No products found" },
+  "productsEmptyHint": { "message": "Make sure you're on a KSP category, search, or brand page." },
+  "productsEmptyRetry": { "message": "Try again" },
+  "productsErrorTitle": { "message": "Extraction error" },
+  "productsErrorBody": { "message": "Could not read the page structure. The DOM may have changed." },
+  "productsErrorRetry": { "message": "🔄 Try again" },
+
+  "colName": { "message": "Name" },
+  "colBrand": { "message": "Brand" },
+  "colPrice": { "message": "Price" },
+  "colEilat": { "message": "Eilat" },
+  "openItem": { "message": "Open product page" },
+
+  "copyMarkdown": { "message": "📋 Markdown" },
+  "copyJson": { "message": "{ } JSON" },
+  "copyPrompt": { "message": "✨ Prompt" },
+  "copied": { "message": "✅ Copied" },
+
+  "aiProviderLabel": { "message": "AI provider" },
+  "aiQuestionLabel": { "message": "Question" },
+  "aiQuestionPlaceholder": { "message": "Which one is the best value here?" },
+  "aiAttachedCount": {
+    "message": "$COUNT$ products attached",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "aiAsk": { "message": "Ask →" },
+  "aiCancel": { "message": "Cancel" },
+  "aiAsking": {
+    "message": "Asking $PROVIDER$...",
+    "placeholders": { "provider": { "content": "$1" } }
+  },
+  "aiWaiting": { "message": "⏳ Waiting for response..." },
+  "aiPlaceholder": { "message": "AI response will appear here..." },
+  "aiCopyAnswer": { "message": "📋 Copy answer" },
+  "aiNewQuestion": { "message": "New question ↺" },
+  "aiErrorMissingKey": { "message": "⚠️ Error: missing API key." },
+  "aiErrorMissingKeyHint": { "message": "Set a key in " },
+  "aiErrorGeneric": {
+    "message": "⚠️ Error: $MSG$",
+    "placeholders": { "msg": { "content": "$1" } }
+  },
+  "settingsLink": { "message": "Settings →" },
+
+  "aiHistoryTitle": { "message": "💬 Recent answers" },
+  "aiHistoryClear": { "message": "clear" },
+  "aiHistoryBadge": { "message": "(from history)" },
+  "aiTimeJustNow": { "message": "just now" },
+  "aiTimeMinutesAgo": {
+    "message": "$N$ min ago",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "aiTimeHoursAgo": {
+    "message": "$N$h ago",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "aiTimeDaysAgo": {
+    "message": "$N$d ago",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+
+  "settingsApiKeysTitle": { "message": "API keys" },
+  "settingsKeySet": { "message": "✅ set" },
+  "settingsKeyMissing": { "message": "❌ missing" },
+  "settingsLanguage": { "message": "Language" },
+  "settingsLangHe": { "message": "עברית" },
+  "settingsLangEn": { "message": "English" },
+  "settingsPrivacyShort": { "message": "🔒 Keys are stored locally in your browser only." },
+  "settingsOpenFull": { "message": "Open full settings →" },
+
+  "optionsTitle": { "message": "⚙️ KSP × AI settings" },
+  "optionsSubtitle": { "message": "Configure API keys and preferences" },
+  "optionsCardKeys": { "message": "API keys" },
+  "optionsGetKey": {
+    "message": "↗ Get a key ($HOST$)",
+    "placeholders": { "host": { "content": "$1" } }
+  },
+  "optionsCardPrefs": { "message": "Preferences" },
+  "optionsDefaultProvider": { "message": "Default provider" },
+  "optionsCardPrivacy": { "message": "🔒 Privacy & security" },
+  "optionsPrivacyBody": {
+    "message": "Keys are stored locally in your browser only (chrome.storage.local) and are never sent to our servers. They go directly to the AI provider you choose."
+  },
+  "optionsSave": { "message": "💾 Save settings" },
+  "optionsSaved": { "message": "✅ Settings saved!" },
+
+  "floatBtnLabel": { "message": "✨ Analyze with AI" },
+  "floatBtnExtracting": { "message": "⏳ Extracting..." },
+  "floatBtnTooltip": {
+    "message": "Click to analyze $COUNT$ products ▲",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+
+  "providerClaude": { "message": "Claude (Anthropic)" },
+  "providerOpenAI": { "message": "OpenAI / GPT" },
+  "providerGemini": { "message": "Google Gemini" },
+
+  "defaultSystemPrompt": {
+    "message": "You are a shopping assistant for Israeli KSP customers. Respond in Hebrew unless the user writes in English. Be concise and direct."
+  },
+  "promptHeader": {
+    "message": "Here are $COUNT$ products from KSP:",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "promptHebrewSuffix": {
+    "message": "Compare the products above and answer: which one is the best value for money, and who is it for? Consider price (the 'אילת' / Eilat price is VAT-free — ~15% cheaper, relevant for Eilat residents or in-store buyers there), notable features visible in the product names, and price-to-quality ratio. End with a clear recommendation of 1–3 top picks with a brief reason for each. Respond in Hebrew."
+  }
+}

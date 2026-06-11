@@ -1,0 +1,167 @@
+/* Full options page — § ⑤ (right artboard).
+   3 cards on a warm-paper bg, with always-visible privacy. */
+
+html, body {
+  background: var(--c-subtle);
+  font-family: var(--font-ui);
+  font-size: 14px;
+  color: var(--c-ink);
+  min-height: 100vh;
+}
+
+.options-wrap {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 24px 28px 40px;
+}
+
+.options-head { margin-bottom: 22px; }
+.options-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 3px;
+}
+.options-subtitle {
+  font-size: 12px;
+  color: var(--c-muted);
+}
+
+.card {
+  background: var(--c-bg);
+  border-radius: 7px;
+  border: 1.5px solid var(--c-border);
+  padding: 16px 18px;
+  margin-bottom: 14px;
+}
+.card-title {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.key-row { margin-bottom: 14px; }
+.key-row:last-child { margin-bottom: 0; }
+.key-row-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.key-name {
+  font-size: 12px;
+  font-weight: 600;
+}
+.key-link {
+  font-size: 10px;
+  color: var(--c-blue);
+  text-decoration: none;
+}
+.key-link:hover { text-decoration: underline; }
+.key-input {
+  font-family: var(--font-mono);
+  direction: ltr;
+  text-align: left;
+}
+
+.pref-block { margin-bottom: 12px; }
+.pref-block:last-child { margin-bottom: 0; }
+.pref-label {
+  font-size: 11px;
+  color: var(--c-muted);
+  margin-bottom: 5px;
+}
+
+.lang-pills {
+  display: flex;
+  gap: 8px;
+}
+.lang-pills button {
+  padding: 6px 18px;
+  border: 1.5px solid var(--c-border);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  background: var(--c-bg);
+  color: var(--c-muted);
+}
+.lang-pills button.active {
+  border-color: var(--c-blue);
+  background: rgba(74, 108, 247, 0.07);
+  color: var(--c-blue);
+}
+
+.privacy {
+  background: var(--c-yellow-bg);
+  border-color: var(--c-yellow-border);
+}
+.privacy .card-title { margin-bottom: 7px; }
+.privacy-body {
+  font-size: 11px;
+  color: #6a5900;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.save-btn {
+  font-size: 14px;
+  padding: 12px 20px;
+  margin-top: 6px;
+}
+
+.saved-toast {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 11px;
+  color: var(--c-green);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.saved-toast.visible { opacity: 1; }
+
+/* Reuse popup buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 9px 16px;
+  border: 1.5px solid var(--c-ink);
+  border-radius: 5px;
+  background: var(--c-bg);
+  color: var(--c-ink);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn.primary {
+  border-color: var(--c-blue);
+  background: var(--c-blue);
+  color: #fff;
+}
+.btn.primary:hover { background: #3a5cdf; }
+.btn.full { width: 100%; }
+
+.select {
+  width: 100%;
+  height: 32px;
+  border: 1.5px solid var(--c-border);
+  border-radius: 5px;
+  background: var(--c-bg);
+  padding: 0 10px;
+  font-family: inherit;
+  font-size: 12px;
+  color: var(--c-ink);
+}
+.input {
+  width: 100%;
+  border: 1.5px solid var(--c-border);
+  border-radius: 5px;
+  background: var(--c-bg);
+  padding: 7px 10px;
+  font-family: inherit;
+  font-size: 12px;
+  color: var(--c-ink);
+  box-sizing: border-box;
+}

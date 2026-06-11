@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <title>KSP × AI</title>
+  <link rel="stylesheet" href="../styles/tokens.css" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="shell">
+    <!-- chrome header -->
+    <header class="shell-head">
+      <span class="shell-title" data-i18n="headerTitle">✨ KSP × AI</span>
+      <button class="shell-close" type="button" data-i18n-title="close" aria-label="Close">✕</button>
+    </header>
+
+    <!-- top tabs (Variant A) -->
+    <nav class="tabs" role="tablist">
+      <button class="tab active" role="tab" data-tab="products" data-i18n="tabProducts">מוצרים</button>
+      <button class="tab" role="tab" data-tab="ai" data-i18n="tabAsk">שאל AI</button>
+      <button class="tab" role="tab" data-tab="settings" data-i18n="tabSettings">הגדרות</button>
+    </nav>
+
+    <!-- tab content slots -->
+    <section class="tab-panel" data-panel="products" role="tabpanel"></section>
+    <section class="tab-panel hidden" data-panel="ai" role="tabpanel"></section>
+    <section class="tab-panel hidden" data-panel="settings" role="tabpanel"></section>
+  </div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

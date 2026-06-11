@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.zip
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# python (legacy)
+__pycache__/
+*.pyc

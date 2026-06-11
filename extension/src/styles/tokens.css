@@ -1,0 +1,41 @@
+/* Design tokens — extracted from Design/KSP LLM Wireframes.html lines 22-32.
+   One file owns the theme so the wireframe and shipped UI stay in sync. */
+
+:root {
+  /* Palette */
+  --c-bg: #ffffff;
+  --c-ink: #1a1917;
+  --c-muted: #8a8480;
+  --c-subtle: #f5f2ee;
+  --c-border: #d8d3cc;
+  --c-blue: #4a6cf7;
+  --c-yellow: #f5c84a;
+  --c-yellow-bg: #fffdf0;
+  --c-yellow-border: rgba(245, 200, 74, 0.5);
+  --c-red: #d94f3f;
+  --c-red-bg: #fff5f4;
+  --c-green: #1f9c6a;
+  --c-row-zebra: #fbf9f6;
+
+  /* Typography */
+  --font-ui: "Assistant", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    system-ui, sans-serif;
+  --font-mono: "Courier New", ui-monospace, monospace;
+
+  /* Shape */
+  --r-sm: 4px;
+  --r-md: 6px;
+  --r-lg: 8px;
+  --border-w: 1.5px;
+  --shell-shadow: 3px 3px 0 var(--c-ink);
+}
+
+* { box-sizing: border-box; }
+
+body, html { margin: 0; padding: 0; }
+
+button {
+  font-family: inherit;
+}
+
+a { color: var(--c-blue); }

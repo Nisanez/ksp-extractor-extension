@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "KSP × AI — חילוץ מוצרים לבינה מלאכותית",
+    "description": "Extension name shown in the store and chrome://extensions"
+  },
+  "extDesc": {
+    "message": "מחלץ מוצרים מ-KSP, יוצר פרומפט מוכן לבינה מלאכותית, או שואל ישירות את Claude / GPT / Gemini.",
+    "description": "Short store description"
+  },
+  "actionTitle": {
+    "message": "פתח KSP × AI",
+    "description": "Toolbar button tooltip"
+  },
+
+  "headerTitle": { "message": "✨ KSP × AI" },
+  "close": { "message": "סגור" },
+
+  "tabProducts": { "message": "מוצרים" },
+  "tabAsk": { "message": "שאל AI" },
+  "tabSettings": { "message": "הגדרות" },
+
+  "productsHeaderFound": {
+    "message": "נמצאו $COUNT$ מוצרים",
+    "placeholders": { "count": { "content": "$1", "example": "12" } }
+  },
+  "productsChipPage": { "message": "עמוד זה" },
+  "productsLoading": { "message": "⏳ מסרק את ה-DOM..." },
+  "productsEmptyTitle": { "message": "לא נמצאו מוצרים" },
+  "productsEmptyHint": { "message": "ודא שאתה נמצא בעמוד קטגוריה, חיפוש או מותג ב-KSP." },
+  "productsEmptyRetry": { "message": "נסה שוב" },
+  "productsErrorTitle": { "message": "שגיאת חילוץ" },
+  "productsErrorBody": { "message": "לא ניתן לקרוא את מבנה הדף. ייתכן שה-DOM השתנה." },
+  "productsErrorRetry": { "message": "🔄 נסה שוב" },
+
+  "colName": { "message": "שם" },
+  "colBrand": { "message": "מותג" },
+  "colPrice": { "message": "מחיר" },
+  "colEilat": { "message": "אילת" },
+  "openItem": { "message": "פתח דף מוצר" },
+
+  "copyMarkdown": { "message": "📋 Markdown" },
+  "copyJson": { "message": "{ } JSON" },
+  "copyPrompt": { "message": "✨ פרומפט" },
+  "copied": { "message": "✅ הועתק" },
+
+  "aiProviderLabel": { "message": "ספק AI" },
+  "aiQuestionLabel": { "message": "שאלה" },
+  "aiQuestionPlaceholder": { "message": "איזה מוצר הכי משתלם כאן? ענה בעברית." },
+  "aiAttachedCount": {
+    "message": "$COUNT$ מוצרים יצורפו",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "aiAsk": { "message": "שאל ←" },
+  "aiCancel": { "message": "בטל" },
+  "aiAsking": {
+    "message": "שואל את $PROVIDER$...",
+    "placeholders": { "provider": { "content": "$1" } }
+  },
+  "aiWaiting": { "message": "⏳ ממתין לתשובה..." },
+  "aiPlaceholder": { "message": "תשובת ה-AI תופיע כאן..." },
+  "aiCopyAnswer": { "message": "📋 העתק תשובה" },
+  "aiNewQuestion": { "message": "שאלה חדשה ↺" },
+  "aiErrorMissingKey": { "message": "⚠️ שגיאה: מפתח API חסר." },
+  "aiErrorMissingKeyHint": { "message": "הגדר מפתח ב" },
+  "aiErrorGeneric": {
+    "message": "⚠️ שגיאה: $MSG$",
+    "placeholders": { "msg": { "content": "$1" } }
+  },
+  "settingsLink": { "message": "הגדרות →" },
+
+  "aiHistoryTitle": { "message": "💬 שיחות אחרונות" },
+  "aiHistoryClear": { "message": "נקה" },
+  "aiHistoryBadge": { "message": "(מההיסטוריה)" },
+  "aiTimeJustNow": { "message": "עכשיו" },
+  "aiTimeMinutesAgo": {
+    "message": "לפני $N$ דק׳",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "aiTimeHoursAgo": {
+    "message": "לפני $N$ שע׳",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+  "aiTimeDaysAgo": {
+    "message": "לפני $N$ ימים",
+    "placeholders": { "n": { "content": "$1" } }
+  },
+
+  "settingsApiKeysTitle": { "message": "מפתחות API" },
+  "settingsKeySet": { "message": "✅ מוגדר" },
+  "settingsKeyMissing": { "message": "❌ חסר" },
+  "settingsLanguage": { "message": "שפה" },
+  "settingsLangHe": { "message": "עברית" },
+  "settingsLangEn": { "message": "English" },
+  "settingsPrivacyShort": { "message": "🔒 המפתחות נשמרים מקומית בדפדפן בלבד." },
+  "settingsOpenFull": { "message": "פתח הגדרות מלאות →" },
+
+  "optionsTitle": { "message": "⚙️ הגדרות KSP × AI" },
+  "optionsSubtitle": { "message": "הגדר מפתחות API ועדפות" },
+  "optionsCardKeys": { "message": "מפתחות API" },
+  "optionsGetKey": {
+    "message": "↗ קבל מפתח ($HOST$)",
+    "placeholders": { "host": { "content": "$1" } }
+  },
+  "optionsCardPrefs": { "message": "העדפות" },
+  "optionsDefaultProvider": { "message": "ספק ברירת מחדל" },
+  "optionsCardPrivacy": { "message": "🔒 פרטיות ואבטחה" },
+  "optionsPrivacyBody": {
+    "message": "המפתחות נשמרים מקומית בדפדפן בלבד (chrome.storage.local) ואינם נשלחים לשרתינו. הם נשלחים ישירות לספק ה-AI שבחרת בלבד."
+  },
+  "optionsSave": { "message": "💾 שמור הגדרות" },
+  "optionsSaved": { "message": "✅ ההגדרות נשמרו!" },
+
+  "floatBtnLabel": { "message": "✨ נתח עם AI" },
+  "floatBtnExtracting": { "message": "⏳ מחלץ..." },
+  "floatBtnTooltip": {
+    "message": "לחץ לנתח $COUNT$ מוצרים ▲",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+
+  "providerClaude": { "message": "Claude (Anthropic)" },
+  "providerOpenAI": { "message": "OpenAI / GPT" },
+  "providerGemini": { "message": "Google Gemini" },
+
+  "defaultSystemPrompt": {
+    "message": "אתה עוזר קניות עבור משתמשים ישראלים בחנות KSP. ענה בעברית אלא אם המשתמש כתב באנגלית. תהיה תמציתי וענייני."
+  },
+  "promptHeader": {
+    "message": "להלן $COUNT$ מוצרים מ-KSP:",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "promptHebrewSuffix": {
+    "message": "השווה בין המוצרים שלמעלה וענה על השאלה: איזה מוצר נותן את הערך הטוב ביותר לכסף, ולמי הוא מתאים? התייחס למחיר (מחיר 'אילת' הוא ללא מע\"מ — ~15% זול יותר, רלוונטי לתושבי אילת או לקונים בסניף בעיר), לתכונות הבולטות שעולות מהשמות, וליחס מחיר-איכות. סיים בהמלצה ברורה של 1–3 מוצרים מובילים עם נימוק קצר לכל אחד. ענה בעברית."
+  }
+}
