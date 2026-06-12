@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "KSP × AI — Product extractor for LLMs",
+    "message": "KSP Extractor — Product listings for AI",
     "description": "Extension name shown in the store and chrome://extensions"
   },
   "extDesc": {
@@ -8,11 +8,11 @@
     "description": "Short store description"
   },
   "actionTitle": {
-    "message": "Open KSP × AI",
+    "message": "Open KSP Extractor",
     "description": "Toolbar button tooltip"
   },
 
-  "headerTitle": { "message": "✨ KSP × AI" },
+  "headerTitle": { "message": "✨ KSP Extractor" },
   "close": { "message": "Close" },
 
   "tabProducts": { "message": "Products" },
@@ -94,7 +94,7 @@
   "settingsPrivacyShort": { "message": "🔒 Keys are stored locally in your browser only." },
   "settingsOpenFull": { "message": "Open full settings →" },
 
-  "optionsTitle": { "message": "⚙️ KSP × AI settings" },
+  "optionsTitle": { "message": "⚙️ KSP Extractor settings" },
   "optionsSubtitle": { "message": "Configure API keys and preferences" },
   "optionsCardKeys": { "message": "API keys" },
   "optionsGetKey": {

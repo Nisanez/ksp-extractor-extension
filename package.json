@@ -2,7 +2,7 @@
   "name": "ksp-llm-extension",
   "version": "0.1.0",
   "private": true,
-  "description": "KSP × AI — Hebrew-first browser extension that extracts KSP product listings and feeds them to Claude / GPT / Gemini.",
+  "description": "KSP Extractor — Hebrew-first browser extension that extracts KSP product listings and feeds them to Claude / GPT / Gemini.",
   "license": "MIT",
   "repository": {
     "type": "git",

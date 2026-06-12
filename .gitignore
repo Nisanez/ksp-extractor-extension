@@ -11,3 +11,6 @@ Thumbs.db
 # python (legacy)
 __pycache__/
 *.pyc
+
+# personal deploy companion (not part of the extension/source)
+chrome-web-store-guide.html

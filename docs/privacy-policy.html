@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>KSP Extractor — Privacy Policy / מדיניות פרטיות</title>
+<meta name="description" content="Privacy policy for the KSP Extractor browser extension. No servers, no analytics, no telemetry. Your API keys stay on your device." />
+<style>
+  :root {
+    --ink: #1a1917;
+    --muted: #6b6660;
+    --bg: #ffffff;
+    --subtle: #f5f2ee;
+    --border: #d8d3cc;
+    --blue: #4a6cf7;
+    --green: #1f9c6a;
+    --yellow: #f5c84a;
+    --shadow: 3px 3px 0 var(--ink);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--subtle);
+    color: var(--ink);
+    font-family: 'Assistant', ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    padding: 32px 16px 80px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header.hero {
+    background: var(--ink);
+    color: #fff;
+    border: 2px solid var(--ink);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    padding: 26px 28px;
+    margin-bottom: 26px;
+  }
+  header.hero h1 { margin: 0 0 6px; font-size: 26px; letter-spacing: -0.5px; }
+  header.hero p { margin: 0; color: #cfcac3; font-size: 14px; }
+  .updated { font-size: 12px; color: #b3aea7; margin-top: 10px; }
+  .langbar { display: flex; gap: 8px; margin-bottom: 22px; }
+  .langbar a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    background: #fff;
+    border: 2px solid var(--ink);
+    border-radius: 8px;
+    padding: 7px 14px;
+    box-shadow: 2px 2px 0 var(--ink);
+    transition: transform .08s ease;
+  }
+  .langbar a:hover { transform: translate(-1px,-1px); }
+  section.card {
+    background: var(--bg);
+    border: 2px solid var(--ink);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    padding: 24px 26px;
+    margin-bottom: 26px;
+  }
+  h2 { font-size: 20px; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid var(--border); }
+  h3 { font-size: 15px; margin: 20px 0 6px; }
+  p { margin: 0 0 12px; }
+  a { color: var(--blue); }
+  .pill {
+    display: inline-block;
+    background: var(--green);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 999px;
+    margin-bottom: 12px;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 16px; font-size: 14px; }
+  th, td { text-align: start; padding: 9px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { background: var(--subtle); font-weight: 700; }
+  code {
+    font-family: ui-monospace, "Courier New", monospace;
+    background: var(--subtle);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 13px;
+  }
+  ul { margin: 0 0 12px; padding-inline-start: 22px; }
+  li { margin-bottom: 6px; }
+  .note {
+    background: #fff8e3;
+    border: 1.5px solid var(--yellow);
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 14px;
+  }
+  [dir="rtl"] { text-align: right; }
+  footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 8px; }
+  hr.div { border: 0; border-top: 2px dashed var(--border); margin: 40px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <h1>✨ KSP Extractor — Privacy Policy</h1>
+    <p>No servers. No analytics. No telemetry. Your keys never leave your device.</p>
+    <div class="updated">Last updated: 2026-06-11</div>
+  </header>
+
+  <div class="langbar">
+    <a href="#en">English</a>
+    <a href="#he">עברית</a>
+    <a href="https://github.com/Nisanez/ksp-extractor-extension" target="_blank" rel="noopener">Source ↗</a>
+  </div>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <section class="card" id="en" dir="ltr">
+    <span class="pill">English</span>
+
+    <h2>What this extension does</h2>
+    <p>
+      KSP Extractor reads the product cards on pages you visit on <code>ksp.co.il</code>
+      and offers to either copy them to your clipboard or send them — together with
+      a question you type — to an AI provider (Claude, OpenAI, or Google Gemini) of
+      your choice.
+    </p>
+
+    <h2>What data is handled, and where it goes</h2>
+    <p>
+      <strong>Nothing is sent to the extension author or any third party we control.</strong>
+      There are no servers, no analytics, and no telemetry of any kind.
+    </p>
+    <table>
+      <thead>
+        <tr><th>Data</th><th>Where it lives</th><th>Who can read it</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Your API keys (Claude / OpenAI / Gemini)</td><td>Only <code>chrome.storage.local</code> on your machine</td><td>Only this extension, on your device</td></tr>
+        <tr><td>Extracted product data</td><td>Memory only, while the popup is open</td><td>The AI provider you choose — <em>only</em> when you press “Ask”</td></tr>
+        <tr><td>Your question to the AI</td><td>Memory only, while the popup is open</td><td>Same as above</td></tr>
+        <tr><td>Your recent answers (history)</td><td>Only <code>chrome.storage.local</code> on your machine</td><td>Only this extension, on your device</td></tr>
+        <tr><td>Browsing history</td><td>Never read or stored</td><td>—</td></tr>
+        <tr><td>Page contents on non-KSP sites</td><td>Never read</td><td>—</td></tr>
+      </tbody>
+    </table>
+    <p>
+      When you press “Ask”, the extension makes a single HTTPS request directly to
+      the API endpoint of the provider you chose:
+    </p>
+    <ul>
+      <li><strong>Claude</strong> → <code>https://api.anthropic.com/v1/messages</code></li>
+      <li><strong>OpenAI</strong> → <code>https://api.openai.com/v1/chat/completions</code></li>
+      <li><strong>Gemini</strong> → <code>https://generativelanguage.googleapis.com/v1beta/…</code></li>
+    </ul>
+    <p>
+      That request carries your API key, the extracted products, and your question.
+      The provider’s own privacy policy governs what they do with it. The extension
+      author has no access to it.
+    </p>
+
+    <h2>Permissions we request and why</h2>
+    <ul>
+      <li><code>storage</code> — to save your API keys, preferences, and answer history locally.</li>
+      <li><code>activeTab</code> — to read the rendered product DOM of the KSP tab you’re on.</li>
+      <li><strong>Host access</strong> to <code>https://ksp.co.il/*</code> — so the floating “Analyze with AI” button can mount on KSP grid pages.</li>
+      <li><strong>Optional host access</strong> to <code>api.anthropic.com</code>, <code>api.openai.com</code>, and <code>generativelanguage.googleapis.com</code> — requested only when you save a key for that provider. Decline freely; “Copy” still works without them.</li>
+    </ul>
+
+    <h2>What you can do</h2>
+    <ul>
+      <li>Remove your keys at any time from the extension’s settings page.</li>
+      <li>Clear your answer history from the “Ask AI” tab at any time.</li>
+      <li>Uninstall the extension — your browser removes all stored data.</li>
+      <li>Read the full source: <a href="https://github.com/Nisanez/ksp-extractor-extension" target="_blank" rel="noopener">github.com/Nisanez/ksp-extractor-extension</a>.</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Open an issue at the <a href="https://github.com/Nisanez/ksp-extractor-extension/issues" target="_blank" rel="noopener">GitHub repository</a>.</p>
+  </section>
+
+  <hr class="div" />
+
+  <!-- ===================== HEBREW ===================== -->
+  <section class="card" id="he" dir="rtl">
+    <span class="pill">עברית</span>
+
+    <h2>מה התוסף עושה</h2>
+    <p>
+      התוסף KSP Extractor קורא את כרטיסי המוצרים בעמודים שאתה גולש בהם ב-<code>ksp.co.il</code>
+      ומציע או להעתיק אותם ללוח שלך, או לשלוח אותם — יחד עם שאלה שאתה כותב — לספק
+      בינה מלאכותית שאתה בוחר (Claude, OpenAI או Google Gemini).
+    </p>
+
+    <h2>אילו נתונים מטופלים, ולאן הם הולכים</h2>
+    <p>
+      <strong>שום דבר לא נשלח למפתח התוסף או לצד שלישי שאנו מפעילים.</strong>
+      אין שרתים, אין אנליטיקה, ואין טלמטריה מכל סוג.
+    </p>
+    <table>
+      <thead>
+        <tr><th>נתון</th><th>היכן נשמר</th><th>מי יכול לקרוא</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>מפתחות ה-API שלך (Claude / OpenAI / Gemini)</td><td>רק <code>chrome.storage.local</code> במכשירך</td><td>רק התוסף, על המכשיר שלך</td></tr>
+        <tr><td>מוצרים שחולצו</td><td>בזיכרון בלבד, כל עוד החלון פתוח</td><td>ספק ה-AI שבחרת — <em>רק</em> כשתלחץ “שאל”</td></tr>
+        <tr><td>השאלה שלך ל-AI</td><td>בזיכרון בלבד, כל עוד החלון פתוח</td><td>כנ״ל</td></tr>
+        <tr><td>תשובות אחרונות (היסטוריה)</td><td>רק <code>chrome.storage.local</code> במכשירך</td><td>רק התוסף, על המכשיר שלך</td></tr>
+        <tr><td>היסטוריית גלישה</td><td>לעולם לא נקראת או נשמרת</td><td>—</td></tr>
+        <tr><td>תוכן עמודים שאינם KSP</td><td>לעולם לא נקרא</td><td>—</td></tr>
+      </tbody>
+    </table>
+    <p>
+      כשתלחץ “שאל”, התוסף שולח בקשת HTTPS אחת ישירות לנקודת הקצה של הספק שבחרת:
+    </p>
+    <ul>
+      <li><strong>Claude</strong> ← <code>https://api.anthropic.com/v1/messages</code></li>
+      <li><strong>OpenAI</strong> ← <code>https://api.openai.com/v1/chat/completions</code></li>
+      <li><strong>Gemini</strong> ← <code>https://generativelanguage.googleapis.com/v1beta/…</code></li>
+    </ul>
+    <p>
+      הבקשה נושאת את מפתח ה-API שלך, את המוצרים שחולצו, ואת שאלתך. מדיניות הפרטיות
+      של הספק היא שקובעת מה הוא עושה עם המידע. למפתח התוסף אין גישה אליו.
+    </p>
+
+    <h2>אילו הרשאות אנו מבקשים ולמה</h2>
+    <ul>
+      <li><code>storage</code> — לשמירת מפתחות ה-API, ההעדפות וההיסטוריה באופן מקומי.</li>
+      <li><code>activeTab</code> — לקריאת ה-DOM של הטאב ב-KSP שאתה נמצא בו.</li>
+      <li><strong>הרשאת מארח</strong> ל-<code>https://ksp.co.il/*</code> — כדי שהכפתור הצף “נתח עם AI” יופיע בעמודי KSP.</li>
+      <li><strong>הרשאות מארח אופציונליות</strong> ל-<code>api.anthropic.com</code>, <code>api.openai.com</code> ו-<code>generativelanguage.googleapis.com</code> — מתבקשות רק כשאתה שומר מפתח לאותו ספק. אפשר לסרב; “העתק” עובד גם בלעדיהן.</li>
+    </ul>
+
+    <h2>מה אתה יכול לעשות</h2>
+    <ul>
+      <li>למחוק את המפתחות בכל עת מעמוד ההגדרות.</li>
+      <li>לנקות את היסטוריית התשובות מלשונית “שאל AI” בכל עת.</li>
+      <li>להסיר את התוסף — הדפדפן ימחק את כל הנתונים השמורים.</li>
+      <li>לקרוא את הקוד המלא: <a href="https://github.com/Nisanez/ksp-extractor-extension" target="_blank" rel="noopener">github.com/Nisanez/ksp-extractor-extension</a>.</li>
+    </ul>
+
+    <h2>יצירת קשר</h2>
+    <p>פתחו issue ב-<a href="https://github.com/Nisanez/ksp-extractor-extension/issues" target="_blank" rel="noopener">מאגר ה-GitHub</a>.</p>
+  </section>
+
+  <footer>KSP Extractor · MIT License · Open source on GitHub</footer>
+
+</div>
+</body>
+</html>

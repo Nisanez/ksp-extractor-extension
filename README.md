@@ -1,6 +1,6 @@
 <div align="right" dir="rtl">
 
-# KSP × AI ✨
+# KSP Extractor ✨
 
 **תוסף דפדפן בעברית שמחלץ מוצרים מ-KSP ושולח אותם לבינה מלאכותית.**
 
@@ -47,7 +47,7 @@ git clone https://github.com/Nisanez/ksp-extractor-extension
 cd ksp-extractor-extension
 npm install
 npm run lint
-npm run zip   # מייצר dist/ksp_ai_-0.1.0.zip
+npm run zip   # מייצר dist/ksp_extractor_-0.1.0.zip
 ```
 
 ## שימוש
@@ -88,7 +88,7 @@ KSP הוא SPA של React + Material-UI. שמות ה-class מתחילים בתב
 
 <a name="english"></a>
 
-# KSP × AI ✨ (English)
+# KSP Extractor ✨ (English)
 
 A Hebrew-first browser extension that extracts product listings from
 [ksp.co.il](https://ksp.co.il) — Israel's largest electronics retailer — and

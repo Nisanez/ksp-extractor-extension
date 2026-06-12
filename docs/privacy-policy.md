@@ -1,4 +1,4 @@
-# KSP × AI — Privacy Policy
+# KSP Extractor — Privacy Policy
 
 _Last updated: 2026-06-08_
 
@@ -6,7 +6,7 @@ This document is also available [in Hebrew below](#מדיניות-פרטיות-�
 
 ## What this extension does
 
-KSP × AI reads the product cards on pages you visit on `ksp.co.il` and offers
+KSP Extractor reads the product cards on pages you visit on `ksp.co.il` and offers
 to either copy them to your clipboard or send them, together with a question
 you type, to an AI provider (Claude, OpenAI, or Google Gemini) of your choice.
 
@@ -48,7 +48,7 @@ author has no access to it.
 
 - Remove your keys at any time from the extension's settings page.
 - Uninstall the extension — all stored data is removed by your browser.
-- Read the source: <https://github.com/nissi/ksp-llm-extension>.
+- Read the source: <https://github.com/Nisanez/ksp-extractor-extension>.
 
 ## Contact
 
@@ -60,7 +60,7 @@ Open an issue at the GitHub repo above.
 
 <div dir="rtl">
 
-**מה התוסף עושה.** התוסף KSP × AI קורא את כרטיסי המוצרים בעמודים שאתה גולש בהם
+**מה התוסף עושה.** התוסף KSP Extractor קורא את כרטיסי המוצרים בעמודים שאתה גולש בהם
 ב-`ksp.co.il` ומציע או להעתיק אותם ללוח שלך, או לשלוח אותם — יחד עם שאלה
 שאתה כותב — לספק בינה מלאכותית שאתה בוחר (Claude, OpenAI או Google Gemini).
 
@@ -80,6 +80,6 @@ Open an issue at the GitHub repo above.
 שומר מפתח לאותו ספק.
 
 **מה אתה יכול לעשות.** למחוק מפתחות בכל עת מעמוד ההגדרות, להסיר את התוסף
-(שיוסיר את כל הנתונים), או לקרוא את הקוד ב-<https://github.com/nissi/ksp-llm-extension>.
+(שיוסיר את כל הנתונים), או לקרוא את הקוד ב-<https://github.com/Nisanez/ksp-extractor-extension>.
 
 </div>

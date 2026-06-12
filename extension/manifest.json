@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "__MSG_extName__",
-  "short_name": "KSP × AI",
+  "short_name": "KSP Extractor",
   "description": "__MSG_extDesc__",
   "version": "0.1.0",
   "default_locale": "he",

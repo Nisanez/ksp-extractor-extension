@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "KSP × AI — חילוץ מוצרים לבינה מלאכותית",
+    "message": "KSP Extractor — חילוץ מוצרים לבינה מלאכותית",
     "description": "Extension name shown in the store and chrome://extensions"
   },
   "extDesc": {
@@ -8,11 +8,11 @@
     "description": "Short store description"
   },
   "actionTitle": {
-    "message": "פתח KSP × AI",
+    "message": "פתח KSP Extractor",
     "description": "Toolbar button tooltip"
   },
 
-  "headerTitle": { "message": "✨ KSP × AI" },
+  "headerTitle": { "message": "✨ KSP Extractor" },
   "close": { "message": "סגור" },
 
   "tabProducts": { "message": "מוצרים" },
@@ -94,7 +94,7 @@
   "settingsPrivacyShort": { "message": "🔒 המפתחות נשמרים מקומית בדפדפן בלבד." },
   "settingsOpenFull": { "message": "פתח הגדרות מלאות →" },
 
-  "optionsTitle": { "message": "⚙️ הגדרות KSP × AI" },
+  "optionsTitle": { "message": "⚙️ הגדרות KSP Extractor" },
   "optionsSubtitle": { "message": "הגדר מפתחות API ועדפות" },
   "optionsCardKeys": { "message": "מפתחות API" },
   "optionsGetKey": {
